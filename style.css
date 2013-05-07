@@ -2,7 +2,7 @@
 Theme Name: Grid Theme Responsive
 Theme URI: http://www.dessign.net/gridthemeresponsive
 Description: Grid Theme Responsive for WordPress is stylish, customizable, simple, and readable. Perfect for any illustrator or graphic designer. 
-Version: 2.6
+Version: 2.9.1
 Author: Marios Lublinski
 Author URI: http://www.dessign.net
 Tags: 4 column theme, white, clean
@@ -35,6 +35,8 @@ a:hover { color:#333; }
 .header_social_icons_cont img { float: left; margin-right: 7px; }
 
 /* Content */
+blockquote { padding: 0 3em; }
+.ongoing { padding: 1em; font-weight: bold; background: #F0F0C0; }
 .home_post_cont { float: left; margin-right: 34px; width: 228px; min-height: 331px; margin-bottom: 35px; position: relative; }
 .home_post_cont_last { margin-right: 0; }
 .home_post_cont img { width: 228px; height: 331px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; }
@@ -80,7 +82,7 @@ a:hover { color:#333; }
 .textwidget { padding: 5px; }
 
 /* Footer */
-#footer { margin: 25px 0; padding: 12px 0; border-top: 1px solid #CBCBCB; border-bottom: 1px solid #CBCBCB; color: #8C8889; text-align: right; }
+#footer { margin: 25px 0; padding: 12px 0; border-top: 1px solid #CBCBCB; border-bottom: 1px solid #CBCBCB; color: #8C8889; text-align: center; }
 #footer a { color: #8C8889; text-decoration: none; }
 #footer a:hover { text-decoration: underline; }
 

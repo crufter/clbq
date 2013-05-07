@@ -6,9 +6,16 @@
       
             <h1><?php the_title(); ?></h1>
             
+            <?php if (has_tag("in-progress")) { ?>
+                <div class="ongoing">
+                    This is an ongoing QA session. If you have any questions to include comment below, write us an email or
+                    whatever floats your boat :).
+                </div>
+            <?php } ?>
+            
             <?php the_content(); ?>
             
-            <br /><br />
+            <p><?php the_tags(); ?></p>
         
         <?php endwhile; else: ?>
         

@@ -13,7 +13,7 @@
     <div id="content_inside">
 
     <?php
-    $category_ID = get_category_id('blog');
+    $category_ID = get_category_id('Non-English');
 
     if (ereg('iPhone',$_SERVER['HTTP_USER_AGENT'])) {
     
