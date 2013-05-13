@@ -14,8 +14,6 @@
             <?php } ?>
             
             <?php the_content(); ?>
-            
-            <p><?php the_tags(); ?></p>
         
         <?php endwhile; else: ?>
         
